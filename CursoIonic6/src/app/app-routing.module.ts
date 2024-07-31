@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'card',
     loadChildren: () => import('./pages/componentes/card/card.module').then( m => m.CardPageModule)
   },
+  {
+    path: 'alert',
+    loadChildren: () => import('./pages/componentes/alert/alert.module').then( m => m.AlertPageModule)
+  },
 ];
 
 @NgModule({

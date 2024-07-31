@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public menuCollection = [
     { title: 'Home', url: 'home', icon: 'home' },
-    { title: 'Botão', url: 'button', icon: 'dice' },
+    { title: 'Alert', url: 'alert', icon: 'dice' },
+    { title: 'Button', url: 'button', icon: 'dice' },
     { title: 'Card', url: 'card', icon: 'card' }
 
   ];
