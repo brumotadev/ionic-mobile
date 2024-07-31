@@ -5,9 +5,10 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  public appPages = [
+  public menuCollection = [
     { title: 'Home', url: 'home', icon: 'home' },
-    { title: 'Botão', url: 'button', icon: 'paper-plane' },
+    { title: 'Botão', url: 'button', icon: 'dice' },
+    { title: 'Card', url: 'card', icon: 'card' }
 
   ];
 
